@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "695625541688",
+    "project_id": "italdiszkont-7981f",
+    "storage_bucket": "italdiszkont-7981f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:695625541688:android:f1677ae14eb3aa541bdecd",
+        "android_client_info": {
+          "package_name": "com.example.italdiszkont"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCngvOqohh_PxJi_s0bHUYs58IGXzi39Zo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

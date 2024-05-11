@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search_bar"
+        android:title="@string/search"
+        android:icon="@drawable/search_icon"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView"
+    />
+
+    <item
+        android:id="@+id/add_to_cart"
+        android:title=""
+        android:icon="@drawable/shopping_cart"
+        app:showAsAction="always"
+        app:actionLayout="@layout/custom_menu_item"
+        />
+    <item
+        android:id="@+id/order"
+        android:title=""
+        android:icon="@drawable/row_down"
+        app:showAsAction="always"
+
+        />
+    <item
+        android:id="@+id/view_selector"
+        android:icon="@drawable/view_stream"
+        android:title="@string/select"
+        app:showAsAction="always"
+
+        />
+    <item
+        android:id="@+id/log_out_button"
+        android:title="@string/log_out"
+        app:showAsAction="never"
+        app:actionViewClass="android.widget.SearchView"
+        android:orderInCategory="1"
+        />
+    <item
+        android:id="@+id/permission"
+        android:title="@string/permission"
+        app:showAsAction="never"
+        app:actionViewClass="android.widget.SearchView"
+        android:orderInCategory="2"
+        />
+</menu>

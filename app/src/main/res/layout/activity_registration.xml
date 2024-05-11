@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity">
+
+    <TextView
+        android:id="@+id/registText_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/regist"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        />
+
+    <EditText
+        android:id="@+id/username_reg_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="@string/username"
+        android:inputType="textPersonName"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/registText_edittext"
+        />
+
+    <EditText
+        android:id="@+id/email_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/username_reg_edittext"
+        />
+
+    <!-- Password Field -->
+    <EditText
+        android:id="@+id/password_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email_edittext"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"/>
+
+    <!-- Confirm Password Field -->
+    <EditText
+        android:id="@+id/confirm_password_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password_edittext"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/confirm_password"
+        android:inputType="textPassword"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"/>
+
+    <EditText
+        android:id="@+id/address_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/address"
+        android:inputType="textPostalAddress|textMultiLine"
+        android:maxLines="3"
+        android:layout_below="@id/confirm_password_edittext"/>
+
+    <!-- Phone Number Field -->
+    <EditText
+        android:id="@+id/phone_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/phone_number"
+        android:inputType="phone"
+        android:layout_below="@id/address_edittext"/>
+
+    <!-- Spinner for Company/Person -->
+    <Spinner
+        android:id="@+id/type_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/phone_edittext"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/type_spinner"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <!-- Register Button -->
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="regist"
+            android:text="@string/regist"/>
+
+        <!-- Exit Button -->
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exit"
+            android:onClick="exit"
+            android:layout_marginStart="20dp"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

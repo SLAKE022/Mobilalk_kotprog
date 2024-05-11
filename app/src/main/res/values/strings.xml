@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Italdiszkont</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="regist">Registration</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="email">Email</string>
+    <string name="exit">Exit</string>
+    <string name="address">Address</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="guest">Guest Login</string>
+    <string name="add">ADD</string>
+    <string name="item_info_placeholder">Information</string>
+    <string name="item_placeholder">Name</string>
+    <string name="alcohol_content_placeholder">Alcohol</string>
+    <string name="search">Search</string>
+    <string name="select">View</string>
+    <string name="log_out">Log Out</string>
+    <string name="setting">Setting</string>
+    <string name="permission">Permission</string>
+    <string-array name="user_type">
+        <item>Company</item>
+        <item>Personal</item>
+    </string-array>
+
+
+    <string-array name="phone_labels">
+        <item>Otthon</item>
+        <item>Munkahely</item>
+        <item>Mobil</item>
+        <item>Egyéb</item>
+    </string-array>
+
+    <string-array name="italdiszkont_item_names">
+        <item>Sör</item>
+        <item>Bor</item>
+        <item>Pezsgő</item>
+        <item>Égetett szesz</item>
+    </string-array>
+
+    <string-array name="italdiszkont_item_desc">
+        <item>Ez egy sör</item>
+        <item>Ez egy bor</item>
+        <item>Ez egy pezsgo</item>
+        <item>Ez egy egetettszesz</item>
+    </string-array>
+
+    <array name="italdiszkont_item_rates">
+        <item>3.5</item>
+        <item>5</item>
+        <item>4</item>
+        <item>1.5</item>
+    </array>
+
+    <array name="italdiszkont_item_alcohol">
+        <item>3</item>
+        <item>5</item>
+        <item>4</item>
+        <item>1</item>
+    </array>
+
+    <array name="italdiszkont_item_images">
+        <item>@drawable/sor</item>
+        <item>@drawable/bor</item>
+        <item>@drawable/pezsgo</item>
+        <item>@drawable/egetett</item>
+    </array>
+
+    <array name="italdiszkont_item_price">
+        <item>100 Ft</item>
+        <item>150 Ft</item>
+        <item>500 Ft</item>
+        <item>500 Ft</item>
+    </array>
+</resources>
